@@ -7,7 +7,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rahul Luthra - Engineering Lead, Frontend, AI",
+  title: "Innovating AI-Driven Frontend Experiences & Engineering Leadership.",
   description:
     "Portfolio of Rahul Luthra, a software engineer specializing in frontend development and artificial intelligence.",
 };

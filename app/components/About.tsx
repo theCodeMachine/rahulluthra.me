@@ -30,21 +30,14 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              As a passionate Engineer, I specialize in building robust and scalable web applications.
-              With a strong foundation in JavaScript and TypeScript, I have developed a keen eye for detail and a
-              talent for problem-solving. My projects often involve complex integrations with APIs and databases,
-              showcasing my ability to handle large-scale data efficiently.
-            </p>
-            <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              My expertise extends to modern frameworks and libraries like Next.js, React, Svelte and state management tools like Redux. I'm
-              committed to writing clean, efficient code and keeping up with the latest industry trends.
+            Results-driven frontend engineering leader with over a decade of experience in building innovative, high-performance, and scalable web applications. Expertise in leveraging AI-driven technologies to enhance user experience, improve application efficiency, and drive intelligent UI/UX solutions. Adept at leading engineering teams, fostering a culture of collaboration, and implementing best practices for maintainable and future-proof applications. Passionate about pushing the boundaries of frontend development by integrating AI, optimizing performance, and mentoring teams to excel in modern web technologies.
             </p>
           </motion.div>
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
+      {/* <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image src="/placeholder.svg?height=256&width=256" alt="Decorative background" width={256} height={256} />
-      </div>
+      </div> */}
     </section>
   )
 }

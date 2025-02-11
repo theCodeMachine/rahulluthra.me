@@ -1,32 +1,36 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Code, Layout, Server, Smartphone } from "lucide-react"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { Car, Dumbbell, Music, SquareArrowOutUpRight } from "lucide-react";
 
 export default function Services() {
   const services = [
     {
-      icon: <Layout className="w-12 h-12 text-blue-500" />,
+      icon: <Music className="w-12 h-12 text-red-500" />,
       title: "Apple Music",
-      description: "",
+      url: "https://music.apple.com",
+      description: "Apple Music web player offering access to over 100 million songs, curated playlists, and exclusive content directly from your browser without the need for a dedicated application. This web player provides access to the full Apple Music catalog, your personal library, curated playlists, and more.",
     },
     {
-      icon: <Server className="w-12 h-12 text-green-500" />,
+      icon: <Music className="w-12 h-12 text-yellow-500" />,
       title: "100 Best Albums - Apple Music",
-      description: "",
+      description: "In 2024, Apple Music introduced the `100 Best Albums` list website, a curated selection of the greatest records ever made. This list spans over 65 years of music history and encompasses various genres, from country and pop to rock, hip-hop, and electronic.",
+      url: "https://100best.music.apple.com",
     },
     {
-      icon: <Code className="w-12 h-12 text-purple-500" />,
-      title: "Join Whoop",
-      description: "",
+      icon: <Dumbbell className="w-12 h-12 text-green-500" />,
+      title: "Join WHOOP",
+      description: "Web app to become a WHOOP member, and select the membership plan that aligns with your goals. The web app which offer multiple membership option and accessories.",
+      url: "https://join.whoop.com",
     },
     {
-      icon: <Smartphone className="w-12 h-12 text-yellow-500" />,
+      icon: <Car className="w-12 h-12 text-blue-500" />,
       title: "CarGurus",
-      description: "",
+      description:
+        "CarGurus is a leading online marketplace for buying and selling cars. It connects buyers with sellers in their local area, providing a wide range of car models and prices to choose from.",
+      url: "https://www.cargurus.com",
     },
-  ]
+  ];
 
   return (
     <section
@@ -53,11 +57,19 @@ export default function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <div className="flex items-center mb-4">
-                {service.icon}
-                <h3 className="text-2xl font-semibold ml-4 dark:text-white">{service.title}</h3>
-              </div>
-              <p className="text-gray-600 dark:text-gray-300">{service.description}</p>
+              <a href={service.url} target="_blank" rel="noopener noreferrer">
+                {/* Add the icon here */}
+                <div className="flex items-center mb-4">
+                  {service.icon}
+                  <h3 className="text-2xl font-semibold ml-4 dark:text-white">
+                    {service.title}
+                  </h3>
+                  <SquareArrowOutUpRight className="text-gray-400 dark:text-white ml-auto" />
+                </div>
+                <p className="text-gray-600 dark:text-gray-300">
+                  {service.description}
+                </p>
+              </a>
             </motion.div>
           ))}
         </div>
@@ -66,6 +78,5 @@ export default function Services() {
         <Image src="/placeholder.svg?height=256&width=256" alt="Decorative background" width={256} height={256} />
       </div> */}
     </section>
-  )
+  );
 }
-

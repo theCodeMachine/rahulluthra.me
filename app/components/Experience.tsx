@@ -26,10 +26,10 @@ export default function Experience() {
       period: "Feb 2022 - Sep 2022",
       role: "Staff Software Engineer",
       responsibilities: [
-        "Developing and maintaining the Join Whoop and Whoop Shop app",
-        "Collaborating with product managers to define requirements and prioritize features",
+        "Developing and maintaining the Join Whoop and Whoop Shop app.",
+        "Collaborating with product managers to define requirements and prioritize features.",
         "Leading and mentoring a team of frontend developers, providing guidance, conducting code reviews, and fostering professional growth within the team.",
-        'Advocating for improvements to product quality, security, and performance that have particular impact across the team and others.'
+        "Advocating for improvements to product quality, security, and performance that have particular impact across the team and others.",
       ],
     },
     {
@@ -38,7 +38,7 @@ export default function Experience() {
       period: "March 2018 - Feb 2022",
       role: "Principal Software Engineer",
       responsibilities: [
-        "Translating UI/UX design wireframes into functional code, ensuring the technical feasibility of designs, and optimizing applications for maximum speed and scalability.",
+        "Translating UI/UX design wireframe into functional code, ensuring the technical feasibility of designs, and optimizing applications for maximum speed and scalability.",
         "Implementing new technologies and frameworks to improve performance and scalability",
         "Developing scalable and maintainable code using modern JavaScript frameworks and tools",
       ],
@@ -48,28 +48,44 @@ export default function Experience() {
       location: "Boston, MA",
       period: "Nov 2016 - March 2018",
       role: "Senior Technical Lead",
-      responsibilities: [],
+      responsibilities: [
+        "Assisted solution architects in designing and evaluating scalable financial applications.",
+        "Led process innovations and defined frontend best practices across multiple teams.",
+        "Developed API-driven digital platforms, enabling seamless integration across financial services.",
+      ],
     },
     {
       company: "CVS Health",
       location: "New York, NY",
       period: "Oct 2015 - Nov 2016",
       role: "Lead Engineer",
-      responsibilities: [],
+      responsibilities: [
+        "Led frontend architecture for enterprise digital applications, improving scalability and maintainability.",
+        "Developed key features in AngularJS to enhance user engagement and retention.",
+        "Actively contributed to CVS Health’s innovation lab, driving digital transformation.",
+      ],
     },
     {
       company: "Genpact",
       location: "Noida, India",
       period: "July 2013 - Oct 2015",
       role: "Consultant",
-      responsibilities: [],
+      responsibilities: [
+        "Designed and developed a multi-channel reusable UI framework.",
+        "Mobile-enabled Genpact’s Akritiv Productivity suite.",
+        "Conducted knowledge-sharing sessions, fostering a culture of innovation.",
+      ],
     },
     {
       company: "InstantPay",
       location: "New Delhi, India",
       period: "May 2012 - July 2013",
-      role: "CTO",
-      responsibilities: [],
+      role: "Engineering Leader",
+      responsibilities: [
+        "Architected and built the core Neo banking and transaction processing platform from scratch.",
+        "Defined the technology roadmap and strategy for the company.",
+        "Led the engineering team to develop a secure and scalable financial infrastructure.",
+      ],
     },
   ];
 
@@ -129,14 +145,14 @@ export default function Experience() {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
+      {/* <div className="absolute bottom-0 right-0 w-64 h-64 -mb-32 -mr-32 opacity-20">
         <Image
           src="/placeholder.svg?height=256&width=256"
           alt="Decorative background"
           width={256}
           height={256}
         />
-      </div>
+      </div> */}
     </section>
   );
 }

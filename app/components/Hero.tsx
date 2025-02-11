@@ -7,10 +7,9 @@ import {
   Mail,
   ArrowDown,
   FileUser,
-  Code,
-  Database,
-  Server,
   Zap,
+  MessageCircleHeart,
+  Medal,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -50,19 +49,22 @@ const CodePattern = () => (
 export default function Hero() {
   const skills = [
     {
-      icon: <Code className="w-8 h-8 text-blue-500" />,
-      title: "Frontend",
-      description: "Svelte, React, Next.js, Redux",
+      icon: <Zap className="w-8 h-8 text-orange-500" />,
+      title: "Top Skills",
+      description:
+        "UI/UX Development, Technical Leadership, AI Integration, Strategic Problem Solving, Effective Communication, Cross-Functional Collaboration",
     },
     {
-      icon: <Server className="w-8 h-8 text-green-500" />,
-      title: "Backend",
-      description: "Node.js, Express, Fastify",
+      icon: <MessageCircleHeart className="w-8 h-8 text-red-500" />,
+      title: "Interests",
+      description:
+        "Generative UI, Application Performance, Conversational UI, Developer Productivity, Optimization, Agentic AI, Technical Vision, Application Architecture, Tech Mentorship",
     },
     {
-      icon: <Zap className="w-8 h-8 text-yellow-500" />,
-      title: "Performance",
-      description: "Optimization, Caching",
+      icon: <Medal className="w-8 h-8 text-yellow-500" />,
+      title: "Achievements",
+      description:
+        "Led AI-driven personalization and performance optimizations, improving engagement, reducing load times, and boosting conversions.",
     },
   ];
   return (
@@ -92,11 +94,11 @@ export default function Hero() {
               Rahul Luthra
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300">
-              Engineering Lead | Frontend | AI
+              Frontend | Engineering Leadership | AI
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Crafting exceptional digital experiences with modern web
-              technologies.
+              Innovating AI-Driven Frontend Experiences & Engineering
+              Leadership.
             </p>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
@@ -116,7 +118,8 @@ export default function Hero() {
                 <GitHub className="w-6 h-6 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="#"
+                href="./resume.pdf"
+                target="_blank"
                 className="p-3 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
                 aria-label="Resume"
               >
@@ -170,7 +173,7 @@ export default function Hero() {
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
-          className="grid grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-10"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
