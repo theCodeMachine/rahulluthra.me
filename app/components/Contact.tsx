@@ -80,17 +80,6 @@ export default function Contact() {
                   <Mail className="w-6 h-6 mr-3 text-blue-600" />
                   rahulluthra90@gmail.com
                 </a>
-                <a
-                  href="tel:+923055356766"
-                  className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
-                >
-                  <Phone className="w-6 h-6 mr-3 text-blue-600" />
-                  +1 (551) 256-0447
-                </a>
-                <div className="flex items-center text-gray-600 dark:text-gray-300">
-                  <MapPin className="w-6 h-6 mr-3 text-blue-600" />
-                  Seattle, WA, USA
-                </div>
               </div>
             </div>
           </motion.div>
