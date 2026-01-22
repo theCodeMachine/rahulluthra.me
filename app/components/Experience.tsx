@@ -9,9 +9,9 @@ export default function Experience() {
   const experiences = [
     {
       company: "Apple Inc",
-      location: "Seattle, WA",
+      location: "Cupertino, CA",
       period: "Sep 2022 - Present",
-      role: "Senior Software Engineer",
+      role: "Staff Software Engineer",
       responsibilities: [
         "Leading development of new features and maintaining existing features for Apple Music, Podcast, TV and other Media Apps.",
         "Overseeing the technical direction of frontend projects, ensuring adherence to coding standards, and maintaining code quality.",
