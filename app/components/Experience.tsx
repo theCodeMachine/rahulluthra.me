@@ -13,11 +13,12 @@ export default function Experience() {
       period: "Sep 2022 - Present",
       role: "Staff Software Engineer",
       responsibilities: [
-        "Leading development of new features and maintaining existing features for Apple Music, Podcast, TV and other Media Apps.",
-        "Overseeing the technical direction of frontend projects, ensuring adherence to coding standards, and maintaining code quality.",
-        "Collaborating with cross-functional teams to drive product feature development and improve user experience",
-        "Identifying and addressing performance issues, implementing best practices, and ensuring applications are responsive and user-friendly",
-        "Performing effective code reviews, mentoring junior developers, and driving best practices in software engineering",
+        "Lead development of new features and maintain existing features for Apple Music, Podcast, TV, and other media apps using Svelte and SvelteKit.",
+        "Oversee the technical direction of frontend projects, ensuring adherence to coding standards and maintaining code quality.",
+        "Designed and built MCP servers for media applications to support AI-driven personalization and content delivery.",
+        "Built code RAG systems and customized open source AI dev tools for internal developers.",
+        "Collaborated with AI partners and internal teams to define AI agent sandboxing strategy; contributed to building secure internal AI coding assistant.",
+        "Perform effective code reviews, mentor engineers, and advocate for best practices in software engineering.",
       ],
     },
     {
@@ -82,7 +83,7 @@ export default function Experience() {
       period: "May 2012 - July 2013",
       role: "Engineering Leader",
       responsibilities: [
-        "Architected and built the core Neo banking and transaction processing platform from scratch.",
+        "Architected and built the core neobanking and transaction processing platform from scratch.",
         "Defined the technology roadmap and strategy for the company.",
         "Led the engineering team to develop a secure and scalable financial infrastructure.",
       ],

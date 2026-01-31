@@ -30,7 +30,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            Results-driven frontend engineering leader with over a decade of experience in building innovative, high-performance, and scalable web applications. Expertise in leveraging AI-driven technologies to enhance user experience, improve application efficiency, and drive intelligent UI/UX solutions. Adept at leading engineering teams, fostering a culture of collaboration, and implementing best practices for maintainable and future-proof applications. Passionate about pushing the boundaries of frontend development by integrating AI, optimizing performance, and mentoring teams to excel in modern web technologies.
+            Technical leader and frontend engineering expert with over a decade of experience building high-performance web applications at scale. As a Staff Software Engineer at Apple, I lead cross-functional teams delivering features for Apple Music, Podcast, and TV apps while driving AI-powered developer tooling—building code RAG systems, MCP servers, and contributing to secure internal AI coding assistants. My deep expertise in React, TypeScript, and modern web architectures enables me to bridge AI/ML capabilities with exceptional user experiences. Passionate about mentoring engineers on AI best practices, setting technical direction, and building intelligent, scalable products.
             </p>
           </motion.div>
         </div>
