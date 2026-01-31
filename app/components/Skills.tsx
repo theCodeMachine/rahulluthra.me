@@ -3,15 +3,15 @@
 import { motion } from "framer-motion";
 import {
   Code,
-  Database,
   Server,
   Layout,
   GitBranch,
-  Terminal,
   Layers,
   Cpu,
   Globe,
   Workflow,
+  Brain,
+  Users,
 } from "lucide-react";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
@@ -23,9 +23,25 @@ const SkillIcon = ({ icon: Icon, color }: { icon: any; color: string }) => (
 
 const skills = [
   {
+    icon: Brain,
+    name: "AI & ML Solutions",
+    tech: "MCP Servers, RAG, Prompt Engineering, LLM Function Calling",
+    description:
+      "MCP server design, prompt engineering (system prompts, few-shot, chain-of-thought), RAG (embeddings, vector search, chunking), streaming UI patterns, AI evals and quality measurement.",
+    color: "text-purple-500",
+  },
+  {
+    icon: Users,
+    name: "Technical Leadership",
+    tech: "Mentoring, Code Reviews, Architecture",
+    description:
+      "Team mentoring, code reviews, best practices advocacy, technology roadmaps, cross-functional collaboration, and driving engineering excellence.",
+    color: "text-indigo-500",
+  },
+  {
     icon: Layout,
     name: "UI/UX Design",
-    tech: "HTML, CCS, Sass, Less, Tailwind CSS, Material UI",
+    tech: "HTML, CSS, Sass, Less, Tailwind CSS, Material UI",
     description:
       "Crafting beautiful and intuitive user interfaces with modern design principles and frameworks.",
     color: "text-pink-500",
@@ -44,14 +60,14 @@ const skills = [
     tech: "Redux, Context API",
     description:
       "Managing complex application state with modern state management solutions.",
-    color: "text-indigo-500",
+    color: "text-cyan-500",
   },
   {
     icon: Server,
-    name: "Backend Development",
-    tech: "Node.js, Express, Fastify",
+    name: "Backend & APIs",
+    tech: "Node.js, Express, REST APIs",
     description:
-      "Creating robust server-side applications with focus on scalability and clean architecture.",
+      "Building robust server-side applications and APIs with focus on scalability and clean architecture.",
     color: "text-green-500",
   },
   {
@@ -65,34 +81,18 @@ const skills = [
   {
     icon: Globe,
     name: "Web Performance",
-    tech: "Optimization, SEO",
+    tech: "Optimization, SEO, Responsive Design",
     description:
       "Optimizing web applications for speed, accessibility, and search engine visibility.",
     color: "text-teal-500",
   },
   {
-    icon: Database,
-    name: "Database Management",
-    tech: "MongoDB, Mongoose",
-    description:
-      "Designing and implementing efficient database schemas and queries for optimal data management.",
-    color: "text-purple-500",
-  },
-  {
-    icon: Cpu,
-    name: "API Development",
-    tech: "REST, GraphQL",
-    description:
-      "Designing and implementing efficient APIs for seamless data communication.",
-    color: "text-red-500",
-  },
-  {
     icon: Workflow,
-    name: "Agile Methodologies",
-    tech: "Scrum, Kanban",
+    name: "Tools & Practices",
+    tech: "Webpack, Yarn, NPM, Jest, Mocha, JIRA",
     description:
-      "Working efficiently in agile environments with focus on continuous delivery.",
-    color: "text-cyan-500",
+      "Working efficiently in agile environments with modern tooling and focus on continuous delivery.",
+    color: "text-red-500",
   },
 ];
 

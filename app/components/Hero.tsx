@@ -94,7 +94,7 @@ export default function Hero() {
               Rahul Luthra
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300">
-              Staff Engineer | Tech Lead | AI/ML Solutions
+              Staff Software Engineer | Tech Lead | AI/ML Solutions
             </h2>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
               Innovating AI-Driven Frontend Experiences & Engineering
